@@ -1,0 +1,933 @@
+{
+  "meta": {
+    "category": "ac",
+    "productCount": 10,
+    "lastUpdated": "2024-11-15",
+    "dataNote": "Mock data for demo. VoC summaries simulate aggregated public reviews. Prices approximate as of Nov 2024."
+  },
+  "categories": ["ac", "laptop", "phone", "mattress"],
+  "products": [
+    {
+      "id": "daikin-ftkm50",
+      "category": "ac",
+      "name": "Daikin 1.5 Ton 5 Star Inverter Split AC",
+      "brand": "Daikin",
+      "price": 45490,
+      "launchYear": 2024,
+      "launchMonth": 2,
+      "imageColor": "#0072bc",
+      "tags": ["Best Service", "Durable", "Quiet"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.2, "noiseDb": 35, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 65,
+        "afterSalesSupport": 94,
+        "durability": 92,
+        "usageExperience": 85,
+        "runningCost": 90,
+        "reliability": 95,
+        "ratings": 88
+      },
+      "ownership": {
+        "runningCostPerYear": 4200,
+        "repairCostYear1": 0,
+        "repairCostYear3": 1500,
+        "repairCostYear5": 3500,
+        "estimatedLifespanYears": 10,
+        "resaleValueYear3": 18000,
+        "commonRepair": { "issue": "PCB replacement", "avgCost": 4500, "frequency": "rare" }
+      },
+      "knownIssues": {
+        "hasIssue": false,
+        "issue": "",
+        "affectedBatches": "",
+        "status": "resolved",
+        "sourceNote": "",
+        "actionAdvice": ""
+      },
+      "voc": {
+        "dataPointCount": 52,
+        "youtube": [
+          { "id": "yt1", "title": "Daikin 2024 AC Review", "channel": "Tech Burner", "views": "1.2M", "comments": 4500, "date": "2024-03", "summary": "Paisa vasool hai yaar, cooling is top notch but remote is basic.", "sentiment": "positive" }
+        ],
+        "reddit": [
+          { "id": "r1", "title": "Daikin vs LG for Delhi heat?", "subreddit": "r/delhi", "upvotes": 340, "comments": 120, "date": "2024-04", "summary": "Daikin handles 48C easily. Service is fast." }
+        ],
+        "instagramSentiment": "positive",
+        "instagramThemes": ["Reliable", "Fast cooling", "Expensive"],
+        "pros": ["Excellent cooling at 50°C", "Best-in-class service", "Very quiet indoor unit"],
+        "cons": ["Expensive upfront", "Basic remote", "No WiFi"],
+        "dissentingView": { "exists": true, "text": "Some users in coastal areas report faster coil corrosion than expected." },
+        "vocRating": 8.8,
+        "vocLabel": "Highly Recommended",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Delhi", "rank": 1 }, { "city": "Jaipur", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 450,
+          "avgResponseTimeDays": 1.2,
+          "avgRepairCostINR": 2500,
+          "partsAvailability": "easy"
+        },
+        "cityServiceData": {
+          "Jaipur": { "centersNearby": 6, "avgResponseDays": 1.5 },
+          "default": { "centersNearby": 2, "avgResponseDays": 2.5 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 45490,
+        "flipkartPrice": 45990,
+        "cromaPrice": 46500,
+        "brandSitePrice": 45490,
+        "cashbackOffer": "₹1500 HDFC Credit Card",
+        "bankOffer": "10% off on SBI",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "below",
+        "priceDropPercent": 5,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 7581 },
+          { "tenure": 12, "monthly": 3790 },
+          { "tenure": 18, "monthly": 2527 },
+          { "tenure": 24, "monthly": 1895 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 9,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 8 }
+        ]
+      }
+    },
+    {
+      "id": "lg-ts-q18",
+      "category": "ac",
+      "name": "LG 1.5 Ton 5 Star AI DUAL Inverter AC",
+      "brand": "LG",
+      "price": 46990,
+      "launchYear": 2024,
+      "launchMonth": 1,
+      "imageColor": "#a50034",
+      "tags": ["Smart Features", "Energy Efficient", "Good Service"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.2, "noiseDb": 31, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": true, "smartPlatform": "ThinQ" }
+      },
+      "scores": {
+        "pricing": 60,
+        "afterSalesSupport": 88,
+        "durability": 85,
+        "usageExperience": 92,
+        "runningCost": 94,
+        "reliability": 86,
+        "ratings": 90
+      },
+      "ownership": {
+        "runningCostPerYear": 4000,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2000,
+        "repairCostYear5": 4500,
+        "estimatedLifespanYears": 8,
+        "resaleValueYear3": 16000,
+        "commonRepair": { "issue": "Gas leak", "avgCost": 2500, "frequency": "occasional" }
+      },
+      "knownIssues": {
+        "hasIssue": true,
+        "issue": "ThinQ app connectivity drops frequently on 5GHz routers.",
+        "affectedBatches": "All 2024 models",
+        "status": "monitoring",
+        "sourceNote": "Multiple Reddit threads in r/india",
+        "actionAdvice": "Ensure your router has a dedicated 2.4GHz band enabled."
+      },
+      "voc": {
+        "dataPointCount": 85,
+        "youtube": [
+          { "id": "yt2", "title": "LG AI AC 2024 - Smart or Gimmick?", "channel": "Gyan Therapy", "views": "800K", "comments": 2100, "date": "2024-02", "summary": "App is great when it works. Cooling is smooth and silent.", "sentiment": "positive" }
+        ],
+        "reddit": [
+          { "id": "r2", "title": "LG AC PCB failure?", "subreddit": "r/mumbai", "upvotes": 150, "comments": 85, "date": "2023-08", "summary": "PCB failed after 2 years due to humidity. LG replaced it under warranty but took 5 days." }
+        ],
+        "instagramSentiment": "positive",
+        "instagramThemes": ["Silent", "Smart", "PCB issues"],
+        "pros": ["Extremely silent", "ThinQ app integration", "Low power consumption"],
+        "cons": ["PCB vulnerable in humid areas", "App connectivity issues", "Installation charges are high"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 8.5,
+        "vocLabel": "Great Smart Choice",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Mumbai", "rank": 1 }, { "city": "Bengaluru", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 600,
+          "avgResponseTimeDays": 1.5,
+          "avgRepairCostINR": 3000,
+          "partsAvailability": "easy"
+        },
+        "cityServiceData": {
+          "Mumbai": { "centersNearby": 12, "avgResponseDays": 1.2 },
+          "default": { "centersNearby": 3, "avgResponseDays": 2.0 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 46990,
+        "flipkartPrice": 46990,
+        "cromaPrice": 47500,
+        "brandSitePrice": 46990,
+        "cashbackOffer": "₹2000 ICICI Bank",
+        "bankOffer": "5% Cashback on Amazon Pay ICICI",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "at",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 7831 },
+          { "tenure": 12, "monthly": 3915 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 10,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 10 }
+        ]
+      }
+    },
+    {
+      "id": "voltas-185v",
+      "category": "ac",
+      "name": "Voltas 1.5 Ton 5 Star Inverter Split AC",
+      "brand": "Voltas",
+      "price": 38990,
+      "launchYear": 2023,
+      "launchMonth": 3,
+      "imageColor": "#005a9c",
+      "tags": ["Value for Money", "Wide Network", "Fast Cooling"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.0, "noiseDb": 42, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 90,
+        "afterSalesSupport": 82,
+        "durability": 78,
+        "usageExperience": 75,
+        "runningCost": 85,
+        "reliability": 80,
+        "ratings": 82
+      },
+      "ownership": {
+        "runningCostPerYear": 4500,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2500,
+        "repairCostYear5": 5000,
+        "estimatedLifespanYears": 7,
+        "resaleValueYear3": 12000,
+        "commonRepair": { "issue": "Fan motor noise", "avgCost": 1800, "frequency": "common" }
+      },
+      "knownIssues": {
+        "hasIssue": true,
+        "issue": "Indoor unit fan motor gets noisy after 1-2 seasons.",
+        "affectedBatches": "2022-2023 models",
+        "status": "ongoing",
+        "sourceNote": "Common complaint on Amazon reviews",
+        "actionAdvice": "Regular servicing is required to keep noise levels down."
+      },
+      "voc": {
+        "dataPointCount": 120,
+        "youtube": [
+          { "id": "yt3", "title": "Voltas AC Long Term Review", "channel": "Home Tech", "views": "400K", "comments": 800, "date": "2023-09", "summary": "Cooling is very fast but it's a bit loud. Service wala bahut slow tha.", "sentiment": "mixed" }
+        ],
+        "reddit": [
+          { "id": "r3", "title": "Voltas service in Tier 2?", "subreddit": "r/india", "upvotes": 200, "comments": 90, "date": "2024-01", "summary": "They have technicians everywhere, even in small towns. Parts are cheap." }
+        ],
+        "instagramSentiment": "mixed",
+        "instagramThemes": ["Cheap", "Noisy", "Everywhere"],
+        "pros": ["Very affordable", "Service available in small towns", "Cools quickly"],
+        "cons": ["Noisy indoor unit", "Build quality feels plasticky", "Service quality varies by dealer"],
+        "dissentingView": { "exists": true, "text": "Some users report excellent service from specific local dealers." },
+        "vocRating": 7.5,
+        "vocLabel": "Good Budget Pick",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Lucknow", "rank": 1 }, { "city": "Patna", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 800,
+          "avgResponseTimeDays": 2.5,
+          "avgRepairCostINR": 1500,
+          "partsAvailability": "easy"
+        },
+        "cityServiceData": {
+          "Lucknow": { "centersNearby": 8, "avgResponseDays": 2.0 },
+          "default": { "centersNearby": 4, "avgResponseDays": 3.0 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 38990,
+        "flipkartPrice": 38490,
+        "cromaPrice": 39500,
+        "brandSitePrice": 38990,
+        "cashbackOffer": "₹1000 HDFC",
+        "bankOffer": "10% off on Axis",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "above",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 6498 },
+          { "tenure": 12, "monthly": 3249 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 20,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Big Billion Day", "month": 10, "avgDropPercent": 15 }
+        ]
+      }
+    },
+    {
+      "id": "hitachi-kashikoi",
+      "category": "ac",
+      "name": "Hitachi 1.5 Ton 5 Star Inverter Split AC",
+      "brand": "Hitachi",
+      "price": 48990,
+      "launchYear": 2024,
+      "launchMonth": 2,
+      "imageColor": "#e60012",
+      "tags": ["Premium Cooling", "Quiet", "Expensive Repairs"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.1, "noiseDb": 34, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 50,
+        "afterSalesSupport": 75,
+        "durability": 88,
+        "usageExperience": 90,
+        "runningCost": 88,
+        "reliability": 85,
+        "ratings": 84
+      },
+      "ownership": {
+        "runningCostPerYear": 4300,
+        "repairCostYear1": 0,
+        "repairCostYear3": 3500,
+        "repairCostYear5": 6000,
+        "estimatedLifespanYears": 9,
+        "resaleValueYear3": 17000,
+        "commonRepair": { "issue": "PCB replacement", "avgCost": 8500, "frequency": "rare" }
+      },
+      "knownIssues": {
+        "hasIssue": false,
+        "issue": "",
+        "affectedBatches": "",
+        "status": "resolved",
+        "sourceNote": "",
+        "actionAdvice": ""
+      },
+      "voc": {
+        "dataPointCount": 35,
+        "youtube": [
+          { "id": "yt4", "title": "Hitachi AC Review", "channel": "Tech Review", "views": "200K", "comments": 400, "date": "2024-04", "summary": "Cooling is premium, but parts are very expensive if out of warranty.", "sentiment": "mixed" }
+        ],
+        "reddit": [
+          { "id": "r4", "title": "Hitachi service experience?", "subreddit": "r/india", "upvotes": 80, "comments": 45, "date": "2023-10", "summary": "Great AC, terrible service in my city. Took 2 weeks for a part." }
+        ],
+        "instagramSentiment": "mixed",
+        "instagramThemes": ["Premium", "Expensive parts", "Slow service"],
+        "pros": ["Excellent cooling quality", "Very quiet", "Good build quality"],
+        "cons": ["Expensive spare parts", "Service network is spotty outside metros", "High upfront cost"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 8.0,
+        "vocLabel": "Premium but Risky Service",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Delhi", "rank": 1 }, { "city": "Mumbai", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 250,
+          "avgResponseTimeDays": 3.5,
+          "avgRepairCostINR": 4500,
+          "partsAvailability": "hard"
+        },
+        "cityServiceData": {
+          "Delhi": { "centersNearby": 4, "avgResponseDays": 2.0 },
+          "default": { "centersNearby": 1, "avgResponseDays": 5.0 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 48990,
+        "flipkartPrice": 49500,
+        "cromaPrice": 48990,
+        "brandSitePrice": 48990,
+        "cashbackOffer": "",
+        "bankOffer": "₹1500 off on HDFC",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "at",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 8165 },
+          { "tenure": 12, "monthly": 4082 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 9,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 8 }
+        ]
+      }
+    },
+    {
+      "id": "samsung-windfree",
+      "category": "ac",
+      "name": "Samsung 1.5 Ton 5 Star WindFree AC",
+      "brand": "Samsung",
+      "price": 44990,
+      "launchYear": 2024,
+      "launchMonth": 1,
+      "imageColor": "#1428A0",
+      "tags": ["Draft-Free", "Smart", "Aesthetic"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.16, "noiseDb": 32, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": true, "smartPlatform": "SmartThings" }
+      },
+      "scores": {
+        "pricing": 68,
+        "afterSalesSupport": 85,
+        "durability": 80,
+        "usageExperience": 95,
+        "runningCost": 92,
+        "reliability": 82,
+        "ratings": 86
+      },
+      "ownership": {
+        "runningCostPerYear": 4100,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2200,
+        "repairCostYear5": 4800,
+        "estimatedLifespanYears": 8,
+        "resaleValueYear3": 15000,
+        "commonRepair": { "issue": "WindFree panel motor", "avgCost": 3500, "frequency": "occasional" }
+      },
+      "knownIssues": {
+        "hasIssue": true,
+        "issue": "WindFree micro-holes get clogged with dust if not cleaned regularly.",
+        "affectedBatches": "All WindFree models",
+        "status": "ongoing",
+        "sourceNote": "User reviews",
+        "actionAdvice": "Requires more frequent filter cleaning than standard ACs."
+      },
+      "voc": {
+        "dataPointCount": 60,
+        "youtube": [
+          { "id": "yt5", "title": "Samsung WindFree Review", "channel": "Tech Guide", "views": "500K", "comments": 1200, "date": "2024-03", "summary": "Great for sleeping, no direct air draft. SmartThings app is excellent.", "sentiment": "positive" }
+        ],
+        "reddit": [
+          { "id": "r5", "title": "WindFree AC cleaning?", "subreddit": "r/india", "upvotes": 110, "comments": 60, "date": "2023-11", "summary": "Hard to clean the front panel yourself, need professional service." }
+        ],
+        "instagramSentiment": "positive",
+        "instagramThemes": ["No draft", "Looks good", "Hard to clean"],
+        "pros": ["No direct cold air draft", "Excellent app integration", "Looks very modern"],
+        "cons": ["Hard to clean front panel", "Cooling feels slower in WindFree mode", "Installation can be pricey"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 8.4,
+        "vocLabel": "Best for Bedrooms",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Bengaluru", "rank": 1 }, { "city": "Pune", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 550,
+          "avgResponseTimeDays": 1.8,
+          "avgRepairCostINR": 2800,
+          "partsAvailability": "easy"
+        },
+        "cityServiceData": {
+          "Bengaluru": { "centersNearby": 10, "avgResponseDays": 1.5 },
+          "default": { "centersNearby": 3, "avgResponseDays": 2.5 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 44990,
+        "flipkartPrice": 45490,
+        "cromaPrice": 44990,
+        "brandSitePrice": 44990,
+        "cashbackOffer": "₹1500 ICICI",
+        "bankOffer": "10% off on SBI",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "below",
+        "priceDropPercent": 6,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 7498 },
+          { "tenure": 12, "monthly": 3749 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 10,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 10 }
+        ]
+      }
+    },
+    {
+      "id": "bluestar-15",
+      "category": "ac",
+      "name": "Blue Star 1.5 Ton 5 Star Inverter Split AC",
+      "brand": "Blue Star",
+      "price": 43990,
+      "launchYear": 2024,
+      "launchMonth": 2,
+      "imageColor": "#0054a6",
+      "tags": ["Fast Cooling", "Reliable", "Commercial Grade"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.05, "noiseDb": 38, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 70,
+        "afterSalesSupport": 86,
+        "durability": 90,
+        "usageExperience": 82,
+        "runningCost": 86,
+        "reliability": 88,
+        "ratings": 85
+      },
+      "ownership": {
+        "runningCostPerYear": 4400,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2000,
+        "repairCostYear5": 4500,
+        "estimatedLifespanYears": 9,
+        "resaleValueYear3": 14000,
+        "commonRepair": { "issue": "Capacitor replacement", "avgCost": 1200, "frequency": "occasional" }
+      },
+      "knownIssues": {
+        "hasIssue": false,
+        "issue": "",
+        "affectedBatches": "",
+        "status": "resolved",
+        "sourceNote": "",
+        "actionAdvice": ""
+      },
+      "voc": {
+        "dataPointCount": 45,
+        "youtube": [
+          { "id": "yt6", "title": "Blue Star AC Review", "channel": "AC Expert", "views": "150K", "comments": 300, "date": "2024-05", "summary": "Commercial grade cooling, very fast. Indoor unit is a bit bulky.", "sentiment": "positive" }
+        ],
+        "reddit": [
+          { "id": "r6", "title": "Blue Star for home?", "subreddit": "r/india", "upvotes": 90, "comments": 40, "date": "2024-03", "summary": "Great cooling, reliable, but remote looks like it's from 2010." }
+        ],
+        "instagramSentiment": "positive",
+        "instagramThemes": ["Chilling", "Reliable", "Ugly remote"],
+        "pros": ["Extremely fast cooling", "Very reliable compressor", "Good service network"],
+        "cons": ["Basic remote control", "Indoor unit is bulky", "Slightly noisy at max speed"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 8.3,
+        "vocLabel": "Solid Performer",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Chennai", "rank": 1 }, { "city": "Mumbai", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 400,
+          "avgResponseTimeDays": 1.6,
+          "avgRepairCostINR": 2200,
+          "partsAvailability": "easy"
+        },
+        "cityServiceData": {
+          "Chennai": { "centersNearby": 8, "avgResponseDays": 1.2 },
+          "default": { "centersNearby": 2, "avgResponseDays": 2.5 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 43990,
+        "flipkartPrice": 44500,
+        "cromaPrice": 43990,
+        "brandSitePrice": 43990,
+        "cashbackOffer": "₹1000 HDFC",
+        "bankOffer": "",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "at",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 7331 },
+          { "tenure": 12, "monthly": 3665 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 9,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 8 }
+        ]
+      }
+    },
+    {
+      "id": "carrier-ester",
+      "category": "ac",
+      "name": "Carrier 1.5 Ton 5 Star Flexicool Inverter AC",
+      "brand": "Carrier",
+      "price": 41990,
+      "launchYear": 2024,
+      "launchMonth": 1,
+      "imageColor": "#004b87",
+      "tags": ["Convertible", "Good Value", "Sturdy"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.13, "noiseDb": 37, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 78,
+        "afterSalesSupport": 80,
+        "durability": 84,
+        "usageExperience": 80,
+        "runningCost": 88,
+        "reliability": 82,
+        "ratings": 80
+      },
+      "ownership": {
+        "runningCostPerYear": 4300,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2200,
+        "repairCostYear5": 4800,
+        "estimatedLifespanYears": 8,
+        "resaleValueYear3": 13000,
+        "commonRepair": { "issue": "Gas top-up", "avgCost": 2000, "frequency": "occasional" }
+      },
+      "knownIssues": {
+        "hasIssue": false,
+        "issue": "",
+        "affectedBatches": "",
+        "status": "resolved",
+        "sourceNote": "",
+        "actionAdvice": ""
+      },
+      "voc": {
+        "dataPointCount": 25,
+        "youtube": [
+          { "id": "yt7", "title": "Carrier Flexicool Review", "channel": "Gadget Guru", "views": "100K", "comments": 200, "date": "2024-04", "summary": "Convertible modes work well. Good value for money.", "sentiment": "positive" }
+        ],
+        "reddit": [
+          { "id": "r7", "title": "Carrier ACs any good?", "subreddit": "r/india", "upvotes": 60, "comments": 30, "date": "2024-02", "summary": "Solid machines, but service depends heavily on your local dealer." }
+        ],
+        "instagramSentiment": "mixed",
+        "instagramThemes": ["Value", "Convertible", "Dealer dependent"],
+        "pros": ["6-in-1 convertible cooling", "Good energy efficiency", "Sturdy outdoor unit"],
+        "cons": ["Service quality varies", "Basic design", "Installation can be delayed"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 7.8,
+        "vocLabel": "Good Value Pick",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Delhi", "rank": 1 }, { "city": "Ahmedabad", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 350,
+          "avgResponseTimeDays": 2.2,
+          "avgRepairCostINR": 2000,
+          "partsAvailability": "moderate"
+        },
+        "cityServiceData": {
+          "Delhi": { "centersNearby": 6, "avgResponseDays": 1.8 },
+          "default": { "centersNearby": 1, "avgResponseDays": 3.5 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 41990,
+        "flipkartPrice": 41990,
+        "cromaPrice": 42500,
+        "brandSitePrice": 41990,
+        "cashbackOffer": "",
+        "bankOffer": "10% off on ICICI",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "below",
+        "priceDropPercent": 4,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 6998 },
+          { "tenure": 12, "monthly": 3499 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 10,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 8 }
+        ]
+      }
+    },
+    {
+      "id": "panasonic-hu18",
+      "category": "ac",
+      "name": "Panasonic 1.5 Ton 5 Star Wi-Fi Inverter AC",
+      "brand": "Panasonic",
+      "price": 44990,
+      "launchYear": 2024,
+      "launchMonth": 1,
+      "imageColor": "#004098",
+      "tags": ["Smart App", "Air Purification", "Quiet"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.1, "noiseDb": 38, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": true, "smartPlatform": "MirAIe" }
+      },
+      "scores": {
+        "pricing": 68,
+        "afterSalesSupport": 84,
+        "durability": 82,
+        "usageExperience": 90,
+        "runningCost": 88,
+        "reliability": 84,
+        "ratings": 86
+      },
+      "ownership": {
+        "runningCostPerYear": 4200,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2400,
+        "repairCostYear5": 5000,
+        "estimatedLifespanYears": 8,
+        "resaleValueYear3": 14000,
+        "commonRepair": { "issue": "Wi-Fi module", "avgCost": 1500, "frequency": "rare" }
+      },
+      "knownIssues": {
+        "hasIssue": false,
+        "issue": "",
+        "affectedBatches": "",
+        "status": "resolved",
+        "sourceNote": "",
+        "actionAdvice": ""
+      },
+      "voc": {
+        "dataPointCount": 50,
+        "youtube": [
+          { "id": "yt8", "title": "Panasonic MirAIe AC Review", "channel": "Smart Home", "views": "250K", "comments": 500, "date": "2024-03", "summary": "The MirAIe app is the best AC app in India. Cooling is good.", "sentiment": "positive" }
+        ],
+        "reddit": [
+          { "id": "r8", "title": "Panasonic ACs?", "subreddit": "r/india", "upvotes": 100, "comments": 50, "date": "2024-02", "summary": "Great smart features, nanoe-G filter actually works for dust." }
+        ],
+        "instagramSentiment": "positive",
+        "instagramThemes": ["Smart", "Clean air", "Good app"],
+        "pros": ["Best smart app (MirAIe)", "nanoe-G air purification", "Custom sleep profiles"],
+        "cons": ["Outdoor unit is a bit noisy", "Installation can be expensive", "Remote is basic"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 8.5,
+        "vocLabel": "Best Smart AC",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Bengaluru", "rank": 1 }, { "city": "Delhi", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 400,
+          "avgResponseTimeDays": 1.8,
+          "avgRepairCostINR": 2500,
+          "partsAvailability": "easy"
+        },
+        "cityServiceData": {
+          "Bengaluru": { "centersNearby": 8, "avgResponseDays": 1.5 },
+          "default": { "centersNearby": 2, "avgResponseDays": 3.0 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 44990,
+        "flipkartPrice": 44990,
+        "cromaPrice": 45500,
+        "brandSitePrice": 44990,
+        "cashbackOffer": "₹1500 SBI",
+        "bankOffer": "",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "at",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 7498 },
+          { "tenure": 12, "monthly": 3749 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 10,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Republic Day Sale", "month": 1, "avgDropPercent": 10 }
+        ]
+      }
+    },
+    {
+      "id": "godrej-5star",
+      "category": "ac",
+      "name": "Godrej 1.5 Ton 5 Star Inverter Split AC",
+      "brand": "Godrej",
+      "price": 36990,
+      "launchYear": 2023,
+      "launchMonth": 3,
+      "imageColor": "#008c44",
+      "tags": ["Budget Friendly", "Eco Friendly", "Basic"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.1, "noiseDb": 40, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 95,
+        "afterSalesSupport": 75,
+        "durability": 75,
+        "usageExperience": 70,
+        "runningCost": 85,
+        "reliability": 78,
+        "ratings": 75
+      },
+      "ownership": {
+        "runningCostPerYear": 4400,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2500,
+        "repairCostYear5": 5500,
+        "estimatedLifespanYears": 7,
+        "resaleValueYear3": 10000,
+        "commonRepair": { "issue": "Remote failure", "avgCost": 800, "frequency": "common" }
+      },
+      "knownIssues": {
+        "hasIssue": true,
+        "issue": "Remote control buttons stop working after a year.",
+        "affectedBatches": "2023 models",
+        "status": "ongoing",
+        "sourceNote": "Amazon reviews",
+        "actionAdvice": "Buy a universal remote if the original fails."
+      },
+      "voc": {
+        "dataPointCount": 15,
+        "youtube": [
+          { "id": "yt9", "title": "Godrej AC Unboxing", "channel": "Budget Tech", "views": "50K", "comments": 100, "date": "2023-05", "summary": "Very cheap 5 star AC. Cooling is okay, plastic quality is low.", "sentiment": "mixed" }
+        ],
+        "reddit": [
+          { "id": "r9", "title": "Godrej ACs?", "subreddit": "r/india", "upvotes": 40, "comments": 20, "date": "2023-08", "summary": "Good for the price, but don't expect premium cooling." }
+        ],
+        "instagramSentiment": "mixed",
+        "instagramThemes": ["Cheap", "Okay cooling", "Flimsy"],
+        "pros": ["Very affordable 5-star AC", "Uses R290 eco-friendly gas", "Low running cost"],
+        "cons": ["Poor plastic quality", "Remote fails easily", "Service is slow"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 7.0,
+        "vocLabel": "Budget Compromise",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Pune", "rank": 1 }, { "city": "Ahmedabad", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 300,
+          "avgResponseTimeDays": 3.0,
+          "avgRepairCostINR": 1500,
+          "partsAvailability": "moderate"
+        },
+        "cityServiceData": {
+          "Pune": { "centersNearby": 4, "avgResponseDays": 2.5 },
+          "default": { "centersNearby": 1, "avgResponseDays": 4.0 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 36990,
+        "flipkartPrice": 36490,
+        "cromaPrice": 37500,
+        "brandSitePrice": 36990,
+        "cashbackOffer": "",
+        "bankOffer": "10% off on Axis",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "above",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 6165 },
+          { "tenure": 12, "monthly": 3082 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 20,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Big Billion Day", "month": 10, "avgDropPercent": 15 }
+        ]
+      }
+    },
+    {
+      "id": "whirlpool-supreme",
+      "category": "ac",
+      "name": "Whirlpool 1.5 Ton 5 Star Inverter Split AC",
+      "brand": "Whirlpool",
+      "price": 39990,
+      "launchYear": 2023,
+      "launchMonth": 2,
+      "imageColor": "#fdc129",
+      "tags": ["6th Sense", "Good Cooling", "Average Service"],
+      "specs": {
+        "ac": { "tonnage": 1.5, "starRating": 5, "iseer": 5.0, "noiseDb": 41, "warrantyYears": 1, "warrantyCompressorYears": 10, "smartFeatures": false, "smartPlatform": "" }
+      },
+      "scores": {
+        "pricing": 85,
+        "afterSalesSupport": 70,
+        "durability": 78,
+        "usageExperience": 75,
+        "runningCost": 82,
+        "reliability": 76,
+        "ratings": 74
+      },
+      "ownership": {
+        "runningCostPerYear": 4600,
+        "repairCostYear1": 0,
+        "repairCostYear3": 2800,
+        "repairCostYear5": 5500,
+        "estimatedLifespanYears": 7,
+        "resaleValueYear3": 11000,
+        "commonRepair": { "issue": "Sensor failure", "avgCost": 1500, "frequency": "occasional" }
+      },
+      "knownIssues": {
+        "hasIssue": false,
+        "issue": "",
+        "affectedBatches": "",
+        "status": "resolved",
+        "sourceNote": "",
+        "actionAdvice": ""
+      },
+      "voc": {
+        "dataPointCount": 20,
+        "youtube": [
+          { "id": "yt10", "title": "Whirlpool AC Review", "channel": "Home Appliances", "views": "80K", "comments": 150, "date": "2023-06", "summary": "6th sense cooling works well, but nothing extraordinary.", "sentiment": "mixed" }
+        ],
+        "reddit": [
+          { "id": "r10", "title": "Whirlpool AC?", "subreddit": "r/india", "upvotes": 30, "comments": 15, "date": "2023-07", "summary": "It's okay. Service is outsourced in many places." }
+        ],
+        "instagramSentiment": "mixed",
+        "instagramThemes": ["Decent", "Outsourced service", "Value"],
+        "pros": ["6th sense auto cooling", "Good value", "Cools well at 50C"],
+        "cons": ["Service is outsourced", "Loud outdoor unit", "Basic design"],
+        "dissentingView": { "exists": false, "text": "" },
+        "vocRating": 7.2,
+        "vocLabel": "Average Pick",
+        "fallbackProductId": null
+      },
+      "location": {
+        "topCitiesSold": [{ "city": "Kolkata", "rank": 1 }, { "city": "Lucknow", "rank": 2 }],
+        "serviceNetwork": {
+          "centersNational": 250,
+          "avgResponseTimeDays": 3.5,
+          "avgRepairCostINR": 1800,
+          "partsAvailability": "moderate"
+        },
+        "cityServiceData": {
+          "Kolkata": { "centersNearby": 5, "avgResponseDays": 2.5 },
+          "default": { "centersNearby": 1, "avgResponseDays": 4.5 }
+        }
+      },
+      "deals": {
+        "amazonPrice": 39990,
+        "flipkartPrice": 39490,
+        "cromaPrice": 40500,
+        "brandSitePrice": 39990,
+        "cashbackOffer": "",
+        "bankOffer": "10% off on HDFC",
+        "noCoastEMIAvailable": true,
+        "priceVs3MonthAvg": "at",
+        "priceDropPercent": 0,
+        "emiOptions": [
+          { "tenure": 6, "monthly": 6665 },
+          { "tenure": 12, "monthly": 3332 }
+        ]
+      },
+      "buyTiming": {
+        "monthsSinceRefresh": 21,
+        "nextRefreshExpectedQ": "Q1 2025",
+        "typicalDropEvents": [
+          { "event": "Big Billion Day", "month": 10, "avgDropPercent": 15 }
+        ]
+      }
+    }
+  ]
+}
